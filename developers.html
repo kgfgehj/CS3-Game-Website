@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Developers - Slither Quest</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+         body {
+            font-family: "Press Start 2P", system-ui;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            background: url('./images/bg.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            color: #91dfce;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-family: "Press Start 2P", system-ui;
+            font-weight: 300;
+            font-size: 30px;
+            text-align: center;
+            color: #91dfce;
+            margin-top: 0%;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-family: "Kode Mono", monospace;
+        }
+
+        #img-holder {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+        }
+        
+        .holder {
+            text-align: center;
+        }
+
+        .holder img {
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .holder p {
+            margin: 0;
+        }
+
+        h4 {
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-family: "Kode Mono", monospace;
+        }
+
+        footer {
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .buttons {
+            align-items: center;
+        }
+
+        a {
+            color: #35130b;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <h1>About the Developers - Slither Quest</h1>
+    <p>Slither Quest was developed by Lara Venisse Andres, Rick Raniel Ramirez, and Aiyz Nathaniel Lugue of 9 Pinatubo.</p>
+    <div id="img-holder">
+        <div class="holder">
+            <img src="./images/developer_lara.jpg" alt="Lara" width="200">
+            <p>Lara Venisse Andres</p>
+        </div>
+        <div class="holder">
+            <img src="./images/developer_aiyz.jpg" alt="Aiyz" width="200">
+            <p>Aiyz Nathaniel Lugue</p>
+        </div>
+        <div class="holder">
+            <img src="./images/developer_rr.jpg" alt="Ricky" width="200">
+            <p>Rick Raniel Ramirez</p>
+        </div>
+    </div>
+
+    <h4>If you have any feedback or suggestions, feel free to contact us. <br>
+        See our reference below: <br> <a href="https://www.youtube.com/watch?v=K8Rh5x3c9Pw&t=1097s">Snake Game</a> </h4>
+
+    <footer>
+        <div class="buttons">
+            <a href="index.html">Home</a> | <a href="howtoplay.html">How to Play</a> | <a href="developers.html">Developers</a>
+        </div>
+    </footer>
+</body>
+</html>
